@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"name": "nodeapp",
+			"path": "../../nodeapp"
+		},
+		{
+			"name": "reactjs",
+			"path": "../../reactjs"
+		},
+		{
+			"name": "bookstay",
+			"path": ".."
+		}
+	]
+}

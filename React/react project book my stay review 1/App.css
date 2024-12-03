@@ -1,0 +1,104 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Hotel and Room List */
+  .hotel-list, .room-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .hotel-item, .room-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .hotel-item img, .room-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .hotel-item h3, .room-item h3 {
+    margin: 12px 0;
+    font-size: 1.2rem;
+  }
+  
+  .hotel-item p, .room-item p {
+    font-size: 0.9rem;
+  }
+  
+  /* Forms */
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  /* Confirmation Page */
+  .confirmation-page {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+  
+  .confirmation-page h2 {
+    color: #4CAF50;
+  }
+  
